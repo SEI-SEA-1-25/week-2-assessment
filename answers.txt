@@ -1,37 +1,80 @@
 /* Conceptual */
 
 // 1. 
+Donatello
 
 // 2. 
 
+I believe it will return an 'error'
+
+or (but, I'm questioning if its not the below)
+a object with key, value pairs
+{
+    red: "Jason",
+    black: "Zack",
+    yellow: "Trini",
+    blue: "Billy",
+    pink: "Kimberly",
+    green: "Tommy",
+  }
 // 3.
+Billy
 
 // 4.
+cat
 
 // 5.
+function myFunc(){
+  return "Hello world"
+}
+console.log(myFunc)
 
 // 6.
+evaluates to false    //////// Not sure
 
 // 7. 
+evaluates to false
 
 // 8.
+evaluates to 2
 
 // 9.
+returns apples value of 12
+
+
+
 
 /* Mechanical */
 
 // 1.
 
+let turtles = ["Donatello", "Leonardo", "Michelangelo","Raphael"]
+
 // 2. 
+turtles.forEach(function(turtle){
+  console.log(`${turtle} likes pizza`)
+})
 
 // 6.
-
+car.model
 // 7.
-
+let carYear = car[year]
 // 8.
-
+let account = {
+  accountNo: 498124798,
+  balance: 1000000000000000,
+  printFunc: function(){
+    console.log(`Account No: ${this.accountNo} / Balance: ${this.balance} `)
+  }
+}
 // 9.
+function add(num1,num2){
+  return num1 + num2;
+}
 
-// 10.
-
-// 11. 
+// 10. //// Need to review. I cant do without looking it up. 
+function calculate(num3, num4, function()){
+  
+}
+// 11. //// Need to review. I cant do without looking it up.
+calculate()
