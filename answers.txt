@@ -1,37 +1,37 @@
 /* Conceptual */
 
 // 1. 
-
+'Michelangelo'
 // 2. 
-
+yellow
 // 3.
-
+undefined
 // 4.
-
+"dog"
 // 5.
-
+alert("Hello, World!");
 // 6.
-
+false
 // 7. 
-
+false
 // 8.
-
+2
 // 9.
-
+12
 /* Mechanical */
 
-// 1.
+// 1. const turtles = ["Leonardo", "Raphael", "Michelangelo", "Donatello"]
 
-// 2. 
+// 2. ?
 
-// 6.
+// 6.?
 
-// 7.
+// 7.?
 
-// 8.
+// 8.?
 
-// 9.
+// 9.?
 
-// 10.
+// 10.?
 
-// 11. 
+// 11. ?
