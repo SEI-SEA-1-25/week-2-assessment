@@ -85,7 +85,7 @@ ___
 
 ##### 1. Declare a variable named `turtles` and assign an array containing the strings "Donatello", "Leonardo", "Michelangelo", and "Raphael":
 <br><br>
- 
+
 ##### 2. Write a `forEach` loop to `console.log` each name in _turtles_, appending the string " likes pizza" to each name:
 <br><br>
 
@@ -97,19 +97,16 @@ ___
       		// Question 3 answer below
 
 
-
       }
       // add the sayName method below (Question 4)
     
-    
-    
+ 
     
   }
   
   // Create a new Turtle object below (Question 5)
   
-  
-  
+
 ```
 #### Complete the following code inside of the `Turtle` class above:
 
@@ -127,6 +124,7 @@ let car = {make: 'Toyota', year: 2017, model: 'Prius'};
 ##### 6. Write a JS expression (just the expression, don't assign to a variable) that **accesses** the value of the `car` object's `model` property using **dot notation**:<br><br>
 
 ##### 7. Write a JS expression that **accesses** the value of the `car` object's `year` property using **square bracket notation**:<br><br>
+
 
 ##### 8. Define an object literal and assign to a variable named `account`. Within the object literal, include an `accountNo` property that holds a string of your choosing and a `balance` property that holds a number of your choosing. Finally, include a method (property that holds a function) named `print` within the object literal that would console.log a string formatted as<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Account No: AAAAAA / Balance: BBBBB**<br>substituting the values of `accountNo` and `balance` for AAAAAA and BBBBB:<br><br><br><br><br><br>
 
