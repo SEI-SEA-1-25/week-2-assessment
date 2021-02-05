@@ -1,37 +1,55 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. Trini
 
-// 3.
+// 3. Billy
 
-// 4.
+// 4. duck
 
 // 5.
+const myFunc = function() {
+  var text = "hello world";
+  return text;
+};
+console.log(myFunc())
 
-// 6.
+// 6. false
 
-// 7. 
+// 7. false
 
-// 8.
+// 8. 2
 
-// 9.
+// 9. this.apples
+
 
 /* Mechanical */
 
-// 1.
+// 1. let turtles = ["Donatello", "Leonardo", "Michelangelo", and "Raphael"];
 
-// 2. 
+// 2. turtles.forEach(function (turtle) {
+  console.log(`${turtle} likes pizza"`);
+})
 
-// 6.
+// 6. car.model
 
-// 7.
+// 7. car[1]
 
-// 8.
+// 8. let account = {
+    accountNo: '',
+    balance: '',
+    print() {
+        console.log(`Account No: ${accountNo} Balance: ${balance}`)
+    }
+}
 
-// 9.
+// 9. function add(num1, num2) {
+    let sum = num1 + num2;
+    return sum
+}
 
-// 10.
+// 10. function calculate(num1, num2, callback) {
 
+}
 // 11. 
