@@ -1,11 +1,11 @@
-# Week 2 Assessment - NAME: ____________ `__/21` 
+# Week 2 Assessment - NAME: ____________ `__/20` 
 
 ## Conceptual
 ___
 ```js
-var color = 'yellow';
+let color = 'yellow';
 
-var crimeFighters = {
+let crimeFighters = {
   turtles: ["Leonardo", "Raphael", "Michelangelo", "Donatello"],
   rangers: {
     red: "Jason",
@@ -30,8 +30,8 @@ if (crimeFighters.rangers.red === 'Jason') crimeFighters.rangers.blue = 'Bob';
 ##### 3. What does the expression `crimeFighters.rangers.blue` return?
 
 ```js
-var b = "cat";
-var a = "dog";
+let b = "cat";
+let a = "dog";
 a = b;
 a === "duck"
 ```
@@ -42,7 +42,7 @@ a === "duck"
 <br>
 
 ```js
-var myFunc = function() {
+const myFunc = function() {
   "hello world";
 };
 console.log(myFunc)
@@ -52,19 +52,7 @@ console.log(myFunc)
 <br><br><br>
 
 ```js
-var dog = 'Spot';
-function start(){
-  var dog = 'Rusty';
-}
-start();
-alert(dog);
-```
-
-##### 6. What value will be shown in the above `alert`?
-<br>
-
-```js
-var stuff = [
+let stuff = [
   ['one', 2, false],
   {
 	apples: 12,
@@ -73,20 +61,20 @@ var stuff = [
   false
 ];
 
-var a = 2;
+let a = 2;
 ```
 #### Assuming the above code has ran:
 
-##### 7. What does the expression `stuff[a]` evaluate to?
+##### 6. What does the expression `stuff[a]` evaluate to?
 <br>
 
-##### 8. What does the expression `stuff[0][a]` evaluate to?
+##### 7. What does the expression `stuff[0][a]` evaluate to?
 <br>
 
-##### 9. What does the expression `stuff[0][1]` evaluate to?
+##### 8. What does the expression `stuff[0][1]` evaluate to?
 <br>
 
-##### 10. What does the expression `stuff[1].fn()` return?
+##### 9. What does the expression `stuff[1].fn()` return?
 
 ## Mechanical 
 ___
@@ -131,7 +119,7 @@ ___
 ### Objects
 
 ```js
-var car = {make: 'Toyota', year: 2017, model: 'Prius'};
+let car = {make: 'Toyota', year: 2017, model: 'Prius'};
 ```
 
 ##### 6. Write a JS expression (just the expression, don't assign to a variable) that **accesses** the value of the `car` object's `model` property using **dot notation**:<br><br>
