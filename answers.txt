@@ -1,28 +1,50 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. undefined
 
-// 3.
+// 3. Bob
 
-// 4.
+// 4. duck
 
 // 5.
+ you can type the functions variable name in the console directly or (HUGE MAYBE) create a variable outside of the function
+       then create a variable name for myFunc with console.log as a string and inject it into the string then create 
+       a variableinside myFunc that combine the logFunc
+        ```js
 
-// 6.
+              const logFunc = "console.log(${myOutput})"; 
 
-// 7. 
+              const myFunc(logFunc) {
+                const myOutput = "hello world"
+                literalLog = logFunc
+              }
+              myFunc();
+        
+        ```
+            ...maybe?
 
-// 8.
+// 6. 0,1 "either that or an error message...I think maybe you cannot retrieve a value from square bracket using anythig but an index number" 
 
-// 9.
+// 7. undefined
+
+// 8. 2
+
+// 9. 12
 
 /* Mechanical */
 
 // 1.
 
+const turtles =  ["Donatello", "Leonardo", "Michelangelo", and "Raphael"];
+
 // 2. 
+var peetZa = "likes pizza";
+var arrray = turtles.length[i;]
+
+i = 0;
+ = document.array.turtles.length;
 
 // 6.
 
