@@ -1,37 +1,64 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. red, black, yellow, blue, pink, green
 
-// 3.
+// 3.bob
 
-// 4.
+// 4.cat 
 
-// 5.
+// 5.You can either invoke the function with parameters of 'hello world' in both function paranthesis 
+or you can change the outside console log to console.log('hello world');
 
-// 6.
 
-// 7. 
+// 6. ['one', 2, false]
 
-// 8.
+// 7. 'one'
 
-// 9.
+// 8. 2
+
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1. let turles = ['Donatello', 'Leonardo', 'Michaelangelo', 'Raphael']
 
-// 2. 
+// 2. for(let i = 0; i <= turtles.length; i++){
+    console.log(${turtles} + `likes pizza`)
+}
 
-// 6.
+// 6. car.model[0]
 
-// 7.
+// 7.car['year'[0]]
 
-// 8.
+// 8.let account = {
+    accountNo: '2479837923';
+    balance: '1000';
+    print = () => {
+        let account.accountNo = 'AAAAAA'
+        let account.balance = 'BBBBB'
 
-// 9.
+        console.log(account.accountNo + account.balance)
+
+
+    }
+
+}
+
+// 9.function add(x, y){
+    return x + y
+}
+
+add(2,2);
+
+
+
 
 // 10.
+function calculate(x, y, add){
+    return add 
+}
 
 // 11. 
+calculate(20, 15, add);
