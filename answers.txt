@@ -1,37 +1,66 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. Trini
 
-// 3.
+// 3. Bob
 
-// 4.
+// 4. Duck
 
-// 5.
+// 5. 
+const myFunc = () => {
+    say("hello world");
+}
 
-// 6.
+myFunc();
 
-// 7. 
+// 6. false
 
-// 8.
+// 7. false
 
-// 9.
+// 8. 2
+
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1. const turles = ['Donatello', 'Leonardo', 'Michelangelo', 'Raphael']
 
-// 2. 
+// 2. forEach(function(turtles) {
+console.log(turtle + ' likes pizza.')
+})
 
-// 6.
+class Turtle {
+      constructor(name, maskColor) {
+      		// Question 3 answer below
+                this.name,
+                this.maskColor
 
-// 7.
+      }
+      // add the sayName method below (Question 4)
+            sayName(`I am ${turles}`)
+    
+  }
+  
+  // Create a new Turtle object below (Question 5)
+            const Leonardo = new Turtle('Leo', blue)
 
-// 8.
+// 6. car.model
 
-// 9.
+// 7. let year = car.year
+
+// 8. 
+
+// 9. 
+let x = 4
+let y = 5
+
+var add = (x, y)
+return x + y
 
 // 10.
+const calculate = (4, 5, )
+
 
 // 11. 
