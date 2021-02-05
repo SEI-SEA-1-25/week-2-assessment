@@ -1,37 +1,65 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. Undefined - should be rangers.color, then answer would be yellow.
 
-// 3.
+// 3. Bob
 
-// 4.
+// 4. Cat
 
-// 5.
+// 5. assign "hello world" to a variable, then on the next line, return that variable
 
-// 6.
+// 6. false
 
-// 7. 
+// 7. false
 
-// 8.
+// 8. 2
 
-// 9.
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1. let turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
 
-// 2. 
+// 2. forEach[i].turtles => {
+            [i].append = " likes pizza";
+      }
 
-// 6.
+// 3. this.name = name
+      this.maskColor = maskColor
 
-// 7.
+// 4. sayName = `I am ${Turtle.name}`
+      console.log(sayName)
 
-// 8.
+// 5. let leo = new Turtle adds Turtle2("Leonardo", "blue")
 
-// 9.
+// 6. car.model.value
 
-// 10.
+// 7. car(year[value])
 
-// 11. 
+// 8. let account = {
+            accountNo: '987654',
+            balance: 5000,
+            print: function() { 
+                  let newNum = "AAAAAA"
+                  let newBal = "BBBBB"
+                  account.accountNo.value = newNum
+                  account.balance.value = newBal
+                  console.log(`Account No: ${accountNo} / Balance: ${balance}`);
+            }
+      }
+
+// 9. const add = (x, y) => {
+            return x + y
+      }
+
+// 10. const calculate = (x, y, callBack) => {
+            let callBack = newFunc()
+            const newFunc = (x, y) => {
+                  return
+            }
+            return callBack
+      }
+
+// 11. calculate(20, 15, add)
