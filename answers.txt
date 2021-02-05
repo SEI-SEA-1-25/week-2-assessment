@@ -1,37 +1,52 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. Trini
 
-// 3.
+// 3. Billy
 
-// 4.
+// 4. cat 
 
-// 5.
+// 5. unsure
 
-// 6.
+// 6.   false
 
-// 7. 
+// 7. false
 
-// 8.
+// 8. 2
 
-// 9.
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1. let turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
 
-// 2. 
+// 2. turtles.forEach(){
+    console.log(`${turtle} likes pizza`)
+}
 
-// 6.
 
-// 7.
+// 6. car.model.value
 
-// 8.
+// 7. car[year]
 
-// 9.
+// 8. let account = {
+accountNo: "5",
+balance: "3"
+print: function(){
+    console.log(`${this.accountNo} / ${this.balance})
 
-// 10.
+}
+}
+
+// 9. let add = (x,y)=>{
+    return x + y;
+}
+
+// 10.let calculate = (x,y,function())=>{
+    return function(x,y);
+}
 
 // 11. 
+calculate(20,15,add())
