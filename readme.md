@@ -1,4 +1,4 @@
-# Week 2 Assessment - NAME: ____________ `__/20` 
+# Week 2 Assessment - NAME: Dagm Zerfu `__/20` 
 
 Put your answers in the provided `answers.txt`
 
@@ -95,13 +95,15 @@ ___
   class Turtle {
       constructor(name, maskColor) {
       		// Question 3 answer below
-
-
+          this.name = name;
+          this.maskColor = maskColor;
 
       }
       // add the sayName method below (Question 4)
-    
-    
+    sayName((name, maskColor) => {
+      console.log(`I am ${name}`)
+    })
+    let leo = new turtle('Leonardo', 'blue')
     
     
   }
