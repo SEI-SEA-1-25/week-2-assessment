@@ -1,37 +1,78 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. Error
 
-// 3.
+// 3. Billy
 
-// 4.
+// 4. false
 
-// 5.
+// 5. type consolelog "hello world" inside of the function and call the function outside as myFunc()
 
-// 6.
+// 6. false
 
-// 7. 
+// 7. false
 
-// 8.
+// 8.   ['one', 2, false] 
+        {
+	        apples: 12,
+	        fn: function() { return this.apples; }
+        },
 
-// 9.
+// 9. Error
 
 /* Mechanical */
 
-// 1.
+// 1. var turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
 
-// 2. 
+// 2.
+    var turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
+    turtles.forEach(forEachResult)
 
-// 6.
+    function forEachResult(name) {
+        console.log(`${name} likes pizza`)
+    }
 
-// 7.
+// 6. car.model     //output Prius
+      
+// 7. car["year"]
 
-// 8.
+// 8. var account = {
+        accountNo: "AJEIFE",
+        balance: 62435,
+      }
+        str string = account.balance
+        account[accountNo] = "AAAAAA"
+        string = "BBBBB"
+ 
 
-// 9.
+// 9.   function sumOfTwo(num1, num2) {
+            var result = num1 + num2;
+            return result
+        }
+        sumOfTwo(1, 2)    // output 3
 
-// 10.
+// 10.  function calculate(a, b, callback){
+	        return callback(a, b);
+        }
+        
+
 
 // 11. 
+
+        invoke calculate function -> passing: 20, 15 and sumOfTwo
+
+        function sumOfTwo(num1, num2) {
+                    var result = num1 + num2;
+                    return result
+        }
+
+        function calculate(a, b, callback){
+	        return callback(a, b);
+        }
+    
+
+        calculate(20, 15, sumOfTwo)
+        
+        
