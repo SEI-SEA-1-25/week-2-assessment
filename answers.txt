@@ -1,37 +1,76 @@
 /* Conceptual */
 
 // 1. 
+"Donatello"
 
 // 2. 
+"Trini"
 
 // 3.
+"Billy"
 
 // 4.
+"Cat"
 
 // 5.
 
+
 // 6.
+Undefined
 
 // 7. 
+false
 
 // 8.
 
+
 // 9.
+12
 
 /* Mechanical */
 
 // 1.
+let turtles = ["Donatello", "Leonardo", "Michaelangelo", "Raphael" ]
 
 // 2. 
+for (i = 0; i < turtles.length; i++) {
+    let pizza = " likes pizza"
+    return turtles[i] + pizza
+}
+
+// 3
+this.name = name
+this.maskColor = maskColor
+
+// 4
+sayName() {
+console.log(`I am ${this.name}`)
+
+// 5
+ const leo = new Turtle('Leonardo', 'blue')
 
 // 6.
+car.model
 
 // 7.
+car['make']
 
 // 8.
+let account = {
+    accountNo: '31415235',
+    balance: 1000000000,
+    print: function() {
+        dog = parseInt(account.accountNo) + account.balance
+        console.log(print)
+    }
+}
 
 // 9.
-
+function add(x, y) {
+    return x + y
+}
 // 10.
-
+function calculate(num1, num2, cb) {
+    return cb(num1,num2)
+}
 // 11. 
