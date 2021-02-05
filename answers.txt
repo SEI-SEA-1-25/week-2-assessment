@@ -1,37 +1,70 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
 // 2. 
 
-// 3.
+// 3. Billy
 
-// 4.
+// 4. cat
 
-// 5.
+// 5. the student could use displaymessage()
 
-// 6.
+// 6. 'one', 2, false
 
-// 7. 
+// 7. 'one'
 
-// 8.
+// 8. 2
 
-// 9.
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1.let turtles = [ "Donatello", "Leonardo", "Michelangelo", "Raphael"]
 
-// 2. 
+// 2. for(let i = 0; i <= turtles.length; i++){
+    turtles[i].append(" likes pizza")
+}
+// 3. class Turtle{
+    constructor(name, maskColor){
+        this.name = name 
+        this.maskColor = maskColor
+    }
+    4. sayName(){
+        console.log("I am " + this.name)
+    }
 
-// 6.
+}
 
-// 7.
 
-// 8.
+// 5. let Leo = new Turtle("Leonardo", "blue")
+// 6. car.model
 
-// 9.
+// 7. car[year]
 
-// 10.
+// 8. let account = {
+    accountNo: "9000",
+    balance: 0,
+    print: function() {
+        console.log("Account No: ") + this.accountNo + "/ Balance: " + balance)
+        // pretty sure that was what the log was supposed to say but there was a bunch of gibberish I wasn't sure if i should include
 
-// 11. 
+    }
+
+
+}
+
+// 9. function add(){
+    return parseInt(account.accountNo) + account.balance
+}
+
+// 10. function callback(num1, num2){
+    let answer = num1 + num2
+    return answer
+}
+function calculate(callback, num3){
+    return callback() + num3
+}
+// 11. calculate(20, 15, add()) 
+// don't feel confident on my answers to this and #10 
+// but i'm not sure how else to approach them
