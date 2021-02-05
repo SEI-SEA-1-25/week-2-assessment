@@ -1,37 +1,51 @@
 /* Conceptual */
 
-// 1. 
+// 1. Donatello
 
-// 2. 
+// 2. Would return the value attached to the color key specified
+      If you just used color it would not return anything, you'd need a color key.
 
-// 3.
+// 3. Billy
 
-// 4.
+// 4. cat
 
-// 5.
+// 5. console.log(myFunc());
 
-// 6.
+// 6. 12
 
-// 7. 
+// 7. one, 2, false 2
 
-// 8.
+// 8. one, 2, false apples: 12,
+	                fn: function() { return this.apples}
 
-// 9.
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1. let turtle = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
 
-// 2. 
+// 2. turtle.forEach( name =>{
+    console.log(`${name} likes pizza`)
+})
 
-// 6.
+// 6. car.model
 
-// 7.
+// 7. car[year]
 
-// 8.
+// 8. let account = {
+    accountNo: '12345',
+    balance: '100000000',
+    print: function (){
+        console.log(`Account No: ${accountNo}/ Balance: ${balance}`);
+    }
+}
 
-// 9.
+// 9. function add(num1, num2){
+    return (num1 + num2)
+}
 
-// 10.
+// 10. function calculate(num1,num2, callback()){
+    return callback(num1, num2)
+}
 
-// 11. 
+// 11. calculate(20, 15, add(20,15))

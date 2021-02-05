@@ -95,12 +95,13 @@ ___
   class Turtle {
       constructor(name, maskColor) {
       		// Question 3 answer below
-
-
-
+          name: "",
+          maskColor: "";
       }
       // add the sayName method below (Question 4)
-    
+      function sayName(name) {
+        console.log(`I am ${name}`);
+      }
     
     
     
@@ -108,6 +109,7 @@ ___
   
   // Create a new Turtle object below (Question 5)
   
+  let leo = new Turtle("Leonardo", "Blue");
   
   
 ```
