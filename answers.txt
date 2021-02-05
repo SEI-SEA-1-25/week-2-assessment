@@ -1,37 +1,46 @@
 /* Conceptual */
 
 // 1. 
-
+["Donatello"]
 // 2. 
-
+'yellow'
 // 3.
-
+'billy'
 // 4.
-
+ a = "duck"
 // 5.
-
+return
 // 6.
-
+false
 // 7. 
-
+false
 // 8.
-
+ 2
 // 9.
-
+   12
 /* Mechanical */
 
 // 1.
-
+    let turtles = [ "Donatello", "Leonardo", "Michelangelo", "Raphael"]
 // 2. 
+turtles.forEach(element => console.log('${element} likes pizza`);
+  
 
+  Classes
 // 6.
-
+this.name
+this.maskColor
 // 7.
-
+sayName(name) {
+    console.log(`I am ${this.name}`)
+    }
+  }
+})
 // 8.
-
+  const ram = new Turtle(‘Leonardo’, blue);
 // 9.
-
+  Objects
 // 10.
-
+car.model
 // 11. 
+car[year]
