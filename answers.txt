@@ -70,8 +70,8 @@ class Turtle {
 // 10. function calculate(a,b,callback){
     a = this.a;
     b = this.b;
-    return callback;
+    return callback(a,b);
 }
 
-callback(20,15,add());
+callback(20,15,add)
 
