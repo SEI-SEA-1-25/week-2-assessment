@@ -1,37 +1,52 @@
 /* Conceptual */
 
-// 1. 
+// 1. chrimeFighter.turtle[3] returns "Donatello" 
 
-// 2. 
+// 2. adds color to the objects
 
-// 3.
+// 3. Billy
 
-// 4.
+// 4. dog
 
-// 5.
+// 5. return "hello world" is missing
 
-// 6.
+// 6. car[model]
 
-// 7. 
+// 7.  false
 
-// 8.
+// 8. 'one'
 
-// 9.
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1.   let turtles = ["Donatello", "Leonardo", "Michelangelo", and "Raphael"]
 
-// 2. 
+// 2.   turtles.forEach((thr) => {
+    console.log(`like pizza ${thr}`);
+})
 
-// 6.
+// 6. car.model
 
-// 7.
+// 7. car[year]
 
-// 8.
+// 8. let account = {
+                    accountNo: 'kjh;dfkah',
+                    balance: 2005,
+                    print(function() {
+                        console.log (accountNo + balance)
+                    })
 
-// 9.
+}
 
-// 10.
+// 9. function add(x,y){
+    return x + y
+}
 
-// 11. 
+// 10. let calculate = (x, y, z) =>{
+     z = x + y
+    return z
+}
+
+// 11. calculate(20, 15, add)
+
