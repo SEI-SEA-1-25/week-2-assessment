@@ -2,29 +2,67 @@
 
 // 1. 
 
+"Donatello"
+
 // 2. 
+
+Nothing.  Color isn't a key in the object "rangers", also to use
+bracket notation to access objects the key must be in " ".  
+
 
 // 3.
 
+"Billy"
+
 // 4.
+
+"cat"
 
 // 5.
 
+correct way to write it:
+
+const myFunc =function() {
+    return "hello World";
+}
+
+console.log(myFunc())
+
 // 6.
+
+false
+
 
 // 7. 
 
+
+false
+
 // 8.
 
+ 2
+
 // 9.
+
+12
 
 /* Mechanical */
 
 // 1.
 
+let turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
+
 // 2. 
 
+turtles.forEach(turtle => 
+    console.log(turtle + " likes pizza.")
+
+)
+
+
+
 // 6.
+
 
 // 7.
 
