@@ -95,20 +95,25 @@ ___
   class Turtle {
       constructor(name, maskColor) {
       		// Question 3 answer below
-
+        this.name = name
+        this.maskColor = maskColor
 
 
       }
       // add the sayName method below (Question 4)
     
-    
+    sayName(){
+      
+      console.log("I am " + this.name)
+      
+    }
     
     
   }
   
   // Create a new Turtle object below (Question 5)
   
-  
+  const Leo = new Turtle("Leonardo","blue")
   
 ```
 #### Complete the following code inside of the `Turtle` class above:

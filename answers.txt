@@ -2,36 +2,86 @@
 
 // 1. 
 
+'Donatello'
+
 // 2. 
+
+'Trini'
 
 // 3.
 
+'Billy'
+
 // 4.
+
+'cat'
 
 // 5.
 
+add return statement right before the "hello world" string in myFunc
+
 // 6.
+
+false
 
 // 7. 
 
+false
+
 // 8.
 
+2
+
 // 9.
+
+12
 
 /* Mechanical */
 
 // 1.
 
+let turtles;
+
+turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
+
 // 2. 
+
+turtles.forEach(name  => {
+
+    console.log(name + " likes pizza")
+
+})
 
 // 6.
 
+car.model
+
 // 7.
+
+car['year']
 
 // 8.
 
+account = {
+    accountNo:"56781234", 
+    balance: 123456789.00, 
+    print: function(){
+        console.log(`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Account No: ${this.accountNo} / Balance: ${this.balance}`)
+    } }
+
 // 9.
+
+function add(a,b){
+    return(a+b)
+}
 
 // 10.
 
+function calculate(a,b,callback){
+    return(callback(a,b))
+}
+
 // 11. 
+
+
+calculate(20,15,add)
