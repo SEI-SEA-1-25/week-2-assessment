@@ -1,37 +1,58 @@
 /* Conceptual */
 
-// 1. 
+// 1. "Donatello"
 
-// 2. 
+// 2. "Trini" (or undefined??)
 
-// 3.
+// 3. "Billy"
 
-// 4.
+// 4. "cat"
 
-// 5.
+// 5. move console.log inside of the function and then invoke the function
 
-// 6.
+// 6.  ['one', 2, false],
+  {
+	apples: 12,
+	fn: function() { return this.apples; }
+  },
+  false
 
-// 7. 
+// 7. 'one', 2, false 
 
-// 8.
+// 8. 2
 
-// 9.
+// 9. 12
 
 /* Mechanical */
 
-// 1.
+// 1. const turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
 
-// 2. 
+// 2. turtles.forEach(turtle in turtles) {
+    for (let i=0; i < turtles.length; i++) {
+        let name = turtles.turtle;
+        console.log(`${name} likes pizza`)
+    }
+}
 
-// 6.
+// 6. car.model
 
-// 7.
+// 7. car['year']
 
-// 8.
+// 8. const accout = {
+    accountNo: 'RW807890',
+    balance: 56,
+    print : function () {
+        console.log(`      **Account No:${accountNo} / Balance:${balance}**`)
+    }
+}
 
-// 9.
+// 9. function add (num1, num2) {
+    return num1 + num2
+}
 
-// 10.
+// 10. function calculate (number1, number2, callback) {
+    return callback()
+}
 
-// 11. 
+
+// 11. calculate (20, 15, add)
