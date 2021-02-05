@@ -1,30 +1,16 @@
 /* Conceptual */
 
-// 1. 
+// 1. "Donatello"
 
-// 2. 
+// 2. N/a unless the colors are actually stored under that term or colors meant a specific index.
 
-// 3.
+// 3."Billy"
 
-// 4.
+// 4."duck"
 
-// 5.
+// 5. return "hello world";
 
-// 6.
-
-// 7. 
-
-// 8.
-
-// 9.
-
-/* Mechanical */
-
-// 1.
-
-// 2. 
-
-// 6.
+// 6. false
 
 // 7.
 
@@ -32,6 +18,32 @@
 
 // 9.
 
-// 10.
+/* Mechanical */
 
-// 11. 
+// 1. const turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"];
+
+// 2. for (i = 0; i < turtles.length; i++) {
+  console.log(`${turtles[i]} likes pizza.`);
+} 
+
+// 6.   car.model
+
+// 7.   car["year"]
+
+// 8. const regularHuman = {
+    accountNo: ["272727", "876"],
+    balance: 10000,
+    print: function(accountNo, balance) 
+        {return accountNo + balance};
+};
+console.log(`Hi, my baking info is: ${regularHuman.print("88" , 89)}`);
+
+// 9. function add(ben, jerry) {
+    return ben + jerry;
+};
+
+// 10. function calculate(7, 12, callBack()) {
+    return callBack(7, 12);
+};
+
+// 11. calculate(20, 15, add());
