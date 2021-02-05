@@ -1,4 +1,4 @@
-# Week 2 Assessment - NAME: ____________ `__/20` 
+# Week 2 Assessment - NAME: Chris Bitoye `__/20` 
 
 Put your answers in the provided `answers.txt`
 
