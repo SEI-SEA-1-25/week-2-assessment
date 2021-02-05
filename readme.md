@@ -156,3 +156,19 @@ let car = { make: "Toyota", year: 2017, model: "Prius" };
 ##### 11. Invoke the `calculate` function (defined in question #10 above), passing to it these arguments: 20, 15, and the `add` function (defined in question #9 above):
 
 <br><br>
+
+
+
+const myMap = (arr, cb) => {
+  let output = []
+
+  for (let i = 0; i < array.length; i++>){
+    const newElement = cb(arr[i])
+    output.push(newElement)
+  }
+  return output
+}
+
+myMap([1,2,3], (n)) => {
+  return n* 2
+}
