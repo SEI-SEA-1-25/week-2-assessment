@@ -2,7 +2,7 @@
 
 // 1. "Donatello"
 
-// 2. "Trini" (or undefined??)
+// 2. "Trini"
 
 // 3. "Billy"
 
