@@ -1,37 +1,77 @@
 /* Conceptual */
 
-// 1. 
+// 1. "Donatello"
 
-// 2. 
+// 2. 'yellow'
 
-// 3.
+// 3. 'Bob'
 
-// 4.
+// 4. "cat"
 
-// 5.
+// 5. Need to invoke the function
 
-// 6.
+// 6. false
 
-// 7. 
+// 7. false
 
-// 8.
+// 8. 2
 
-// 9.
+// 9.12
 
 /* Mechanical */
 
-// 1.
+// 1. 
+
+let turtles = ["Donatello", "Leonardo", "Michelangelo", "Raphael"]
 
 // 2. 
 
-// 6.
+turtles.forEach(i){
+    console.log(`${i} likes pizza`);
+}
 
-// 7.
+// 3.
 
-// 8.
+class Turtle {
+      constructor(name, maskColor) {
+      		// Question 3 answer below
+              name: this.name;
+              maskColor: this.maskColor;
 
-// 9.
+      }
+      // add the sayName method below (Question 4)
 
-// 10.
+      function sayName(){
+          console.log(`I am ${this.name`});
+      }
+    
+  }
+  // Create a new Turtle object below (Question 5)
 
-// 11. 
+  let leo = new Turtle("Leonardo", "blue");
+
+// 6. car.model
+
+// 7.  car[year]
+
+// 8.  let account = {
+    accountNo: "Ab20202",
+    balance: 212821,
+    print : function(){
+        console.log(`${this.accountNo}.toUpperCase() / ${this.balance}..toUpperCase() `)
+    }
+}   //This instruction is not clear
+
+//9. function add(a,b){
+    return a + b;
+
+}
+
+// 10. function calculate(a,b,callback){
+    a = this.a;
+    b = this.b;
+    return callback(a,b);
+}
+
+callback(20,15,add)
+
